@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E481B022B628C5000A9812A /* Ekran Resmi 2024-01-25 12.30.00.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E481B012B628C5000A9812A /* Ekran Resmi 2024-01-25 12.30.00.png */; };
+		7E481B042B628CAD00A9812A /* SkinCancerV2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 7E481B032B628CAD00A9812A /* SkinCancerV2.mlmodel */; };
+		7E5EA3A12A2FEEFD00124AE7 /* skincancerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5EA3A02A2FEEFD00124AE7 /* skincancerApp.swift */; };
+		7E5EA3A32A2FEEFD00124AE7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5EA3A22A2FEEFD00124AE7 /* ContentView.swift */; };
+		7E5EA3A52A2FEEFE00124AE7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5EA3A42A2FEEFE00124AE7 /* Assets.xcassets */; };
+		7E5EA3A92A2FEEFE00124AE7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5EA3A82A2FEEFE00124AE7 /* Preview Assets.xcassets */; };
+		7E5EA3B32A2FEEFF00124AE7 /* skincancerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5EA3B22A2FEEFF00124AE7 /* skincancerTests.swift */; };
+		7E5EA3BD2A2FEEFF00124AE7 /* skincancerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5EA3BC2A2FEEFF00124AE7 /* skincancerUITests.swift */; };
+		7E5EA3BF2A2FEEFF00124AE7 /* skincancerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5EA3BE2A2FEEFF00124AE7 /* skincancerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E5EA3AF2A2FEEFE00124AE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E5EA3952A2FEEFD00124AE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E5EA39C2A2FEEFD00124AE7;
+			remoteInfo = skincancer;
+		};
+		7E5EA3B92A2FEEFF00124AE7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E5EA3952A2FEEFD00124AE7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E5EA39C2A2FEEFD00124AE7;
+			remoteInfo = skincancer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E481B012B628C5000A9812A /* Ekran Resmi 2024-01-25 12.30.00.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ekran Resmi 2024-01-25 12.30.00.png"; sourceTree = "<group>"; };
+		7E481B032B628CAD00A9812A /* SkinCancerV2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SkinCancerV2.mlmodel; sourceTree = "<group>"; };
+		7E5EA39D2A2FEEFD00124AE7 /* skincancer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = skincancer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5EA3A02A2FEEFD00124AE7 /* skincancerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skincancerApp.swift; sourceTree = "<group>"; };
+		7E5EA3A22A2FEEFD00124AE7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E5EA3A42A2FEEFE00124AE7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E5EA3A62A2FEEFE00124AE7 /* skincancer.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = skincancer.entitlements; sourceTree = "<group>"; };
+		7E5EA3A82A2FEEFE00124AE7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E5EA3AE2A2FEEFE00124AE7 /* skincancerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skincancerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5EA3B22A2FEEFF00124AE7 /* skincancerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skincancerTests.swift; sourceTree = "<group>"; };
+		7E5EA3B82A2FEEFF00124AE7 /* skincancerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = skincancerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5EA3BC2A2FEEFF00124AE7 /* skincancerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skincancerUITests.swift; sourceTree = "<group>"; };
+		7E5EA3BE2A2FEEFF00124AE7 /* skincancerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skincancerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E5EA39A2A2FEEFD00124AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5EA3AB2A2FEEFE00124AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5EA3B52A2FEEFF00124AE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E5EA3942A2FEEFD00124AE7 = {
+			isa = PBXGroup;
+			children = (
+				7E5EA39F2A2FEEFD00124AE7 /* skincancer */,
+				7E5EA3B12A2FEEFF00124AE7 /* skincancerTests */,
+				7E5EA3BB2A2FEEFF00124AE7 /* skincancerUITests */,
+				7E5EA39E2A2FEEFD00124AE7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E5EA39E2A2FEEFD00124AE7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E5EA39D2A2FEEFD00124AE7 /* skincancer.app */,
+				7E5EA3AE2A2FEEFE00124AE7 /* skincancerTests.xctest */,
+				7E5EA3B82A2FEEFF00124AE7 /* skincancerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E5EA39F2A2FEEFD00124AE7 /* skincancer */ = {
+			isa = PBXGroup;
+			children = (
+				7E5EA3A02A2FEEFD00124AE7 /* skincancerApp.swift */,
+				7E5EA3A22A2FEEFD00124AE7 /* ContentView.swift */,
+				7E481B012B628C5000A9812A /* Ekran Resmi 2024-01-25 12.30.00.png */,
+				7E481B032B628CAD00A9812A /* SkinCancerV2.mlmodel */,
+				7E5EA3A42A2FEEFE00124AE7 /* Assets.xcassets */,
+				7E5EA3A62A2FEEFE00124AE7 /* skincancer.entitlements */,
+				7E5EA3A72A2FEEFE00124AE7 /* Preview Content */,
+			);
+			path = skincancer;
+			sourceTree = "<group>";
+		};
+		7E5EA3A72A2FEEFE00124AE7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7E5EA3A82A2FEEFE00124AE7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7E5EA3B12A2FEEFF00124AE7 /* skincancerTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E5EA3B22A2FEEFF00124AE7 /* skincancerTests.swift */,
+			);
+			path = skincancerTests;
+			sourceTree = "<group>";
+		};
+		7E5EA3BB2A2FEEFF00124AE7 /* skincancerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E5EA3BC2A2FEEFF00124AE7 /* skincancerUITests.swift */,
+				7E5EA3BE2A2FEEFF00124AE7 /* skincancerUITestsLaunchTests.swift */,
+			);
+			path = skincancerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E5EA39C2A2FEEFD00124AE7 /* skincancer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5EA3C22A2FEEFF00124AE7 /* Build configuration list for PBXNativeTarget "skincancer" */;
+			buildPhases = (
+				7E5EA3992A2FEEFD00124AE7 /* Sources */,
+				7E5EA39A2A2FEEFD00124AE7 /* Frameworks */,
+				7E5EA39B2A2FEEFD00124AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = skincancer;
+			productName = skincancer;
+			productReference = 7E5EA39D2A2FEEFD00124AE7 /* skincancer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E5EA3AD2A2FEEFE00124AE7 /* skincancerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5EA3C52A2FEEFF00124AE7 /* Build configuration list for PBXNativeTarget "skincancerTests" */;
+			buildPhases = (
+				7E5EA3AA2A2FEEFE00124AE7 /* Sources */,
+				7E5EA3AB2A2FEEFE00124AE7 /* Frameworks */,
+				7E5EA3AC2A2FEEFE00124AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E5EA3B02A2FEEFE00124AE7 /* PBXTargetDependency */,
+			);
+			name = skincancerTests;
+			productName = skincancerTests;
+			productReference = 7E5EA3AE2A2FEEFE00124AE7 /* skincancerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E5EA3B72A2FEEFF00124AE7 /* skincancerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5EA3C82A2FEEFF00124AE7 /* Build configuration list for PBXNativeTarget "skincancerUITests" */;
+			buildPhases = (
+				7E5EA3B42A2FEEFF00124AE7 /* Sources */,
+				7E5EA3B52A2FEEFF00124AE7 /* Frameworks */,
+				7E5EA3B62A2FEEFF00124AE7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E5EA3BA2A2FEEFF00124AE7 /* PBXTargetDependency */,
+			);
+			name = skincancerUITests;
+			productName = skincancerUITests;
+			productReference = 7E5EA3B82A2FEEFF00124AE7 /* skincancerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E5EA3952A2FEEFD00124AE7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					7E5EA39C2A2FEEFD00124AE7 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					7E5EA3AD2A2FEEFE00124AE7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7E5EA39C2A2FEEFD00124AE7;
+					};
+					7E5EA3B72A2FEEFF00124AE7 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7E5EA39C2A2FEEFD00124AE7;
+					};
+				};
+			};
+			buildConfigurationList = 7E5EA3982A2FEEFD00124AE7 /* Build configuration list for PBXProject "skincancer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E5EA3942A2FEEFD00124AE7;
+			productRefGroup = 7E5EA39E2A2FEEFD00124AE7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E5EA39C2A2FEEFD00124AE7 /* skincancer */,
+				7E5EA3AD2A2FEEFE00124AE7 /* skincancerTests */,
+				7E5EA3B72A2FEEFF00124AE7 /* skincancerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E5EA39B2A2FEEFD00124AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5EA3A92A2FEEFE00124AE7 /* Preview Assets.xcassets in Resources */,
+				7E5EA3A52A2FEEFE00124AE7 /* Assets.xcassets in Resources */,
+				7E481B022B628C5000A9812A /* Ekran Resmi 2024-01-25 12.30.00.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5EA3AC2A2FEEFE00124AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5EA3B62A2FEEFF00124AE7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E5EA3992A2FEEFD00124AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5EA3A32A2FEEFD00124AE7 /* ContentView.swift in Sources */,
+				7E5EA3A12A2FEEFD00124AE7 /* skincancerApp.swift in Sources */,
+				7E481B042B628CAD00A9812A /* SkinCancerV2.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5EA3AA2A2FEEFE00124AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5EA3B32A2FEEFF00124AE7 /* skincancerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5EA3B42A2FEEFF00124AE7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5EA3BD2A2FEEFF00124AE7 /* skincancerUITests.swift in Sources */,
+				7E5EA3BF2A2FEEFF00124AE7 /* skincancerUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E5EA3B02A2FEEFE00124AE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E5EA39C2A2FEEFD00124AE7 /* skincancer */;
+			targetProxy = 7E5EA3AF2A2FEEFE00124AE7 /* PBXContainerItemProxy */;
+		};
+		7E5EA3BA2A2FEEFF00124AE7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E5EA39C2A2FEEFD00124AE7 /* skincancer */;
+			targetProxy = 7E5EA3B92A2FEEFF00124AE7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7E5EA3C02A2FEEFF00124AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				"INFOPLIST_FILE[sdk=*]" = "";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E5EA3C12A2FEEFF00124AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7E5EA3C32A2FEEFF00124AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = skincancer/skincancer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"skincancer/Preview Content\"";
+				DEVELOPMENT_TEAM = K5GB4YTN55;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okudan.skincancer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E5EA3C42A2FEEFF00124AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = skincancer/skincancer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"skincancer/Preview Content\"";
+				DEVELOPMENT_TEAM = K5GB4YTN55;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_FILE[sdk=iphoneos*]" = "";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okudan.skincancer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7E5EA3C62A2FEEFF00124AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okudan.skincancerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/skincancer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/skincancer";
+			};
+			name = Debug;
+		};
+		7E5EA3C72A2FEEFF00124AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okudan.skincancerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/skincancer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/skincancer";
+			};
+			name = Release;
+		};
+		7E5EA3C92A2FEEFF00124AE7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okudan.skincancerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = skincancer;
+			};
+			name = Debug;
+		};
+		7E5EA3CA2A2FEEFF00124AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.okudan.skincancerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = skincancer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E5EA3982A2FEEFD00124AE7 /* Build configuration list for PBXProject "skincancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5EA3C02A2FEEFF00124AE7 /* Debug */,
+				7E5EA3C12A2FEEFF00124AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E5EA3C22A2FEEFF00124AE7 /* Build configuration list for PBXNativeTarget "skincancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5EA3C32A2FEEFF00124AE7 /* Debug */,
+				7E5EA3C42A2FEEFF00124AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E5EA3C52A2FEEFF00124AE7 /* Build configuration list for PBXNativeTarget "skincancerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5EA3C62A2FEEFF00124AE7 /* Debug */,
+				7E5EA3C72A2FEEFF00124AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E5EA3C82A2FEEFF00124AE7 /* Build configuration list for PBXNativeTarget "skincancerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5EA3C92A2FEEFF00124AE7 /* Debug */,
+				7E5EA3CA2A2FEEFF00124AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E5EA3952A2FEEFD00124AE7 /* Project object */;
+}
